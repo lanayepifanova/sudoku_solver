@@ -1,3 +1,3 @@
 # sudoku_solver
 
-not mine, @badcodinghabits on youtube
+code is not mine, @badcodinghabits on youtube
