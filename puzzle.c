@@ -13,17 +13,20 @@ int ** createPuzzle()
 
                       0, 5, 0,     0, 0, 6,     0, 0, 0,
                       6, 0, 0,     0, 2, 8,     0, 7, 9,
-                      0, 0, 0,     1, 0, 0,     8, 6, 0,
+                      0, 0, 0,     1, 0, 0,     8, 6, 0};
 
-puzzle = (int**)malloc(sizeof(int*)*9)
+puzzle = (int**)malloc(sizeof(int*)*9);
 
 for (i = 0; i < 9; i++)
 {
-  puzzle[i] = (int*)mallov(sizeof(int*9);
+  puzzle[i] = (int*)malloc(sizeof(int*9);
 
   for (j = 0; j < 9; j++)
-    
+    {
+      puzzle[i][j] = array[i][j];
+    }   
 }
   
-return array;
+return puzzle;
+  
 } 
