@@ -1,9 +1,13 @@
 #include "sudoku.h"
 
-
 int main()
 {
-  createPuzzle();
+  int ** puzzle;
+  
+  puzzle = createPuzzle();
+
+  printPuzzle(puzzle);
+  
   return 0;
 }
 
