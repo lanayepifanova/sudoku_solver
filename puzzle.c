@@ -35,7 +35,7 @@ void printPuzzle(int ** puzzle);
 {
   int i, j;
 
-  printf("")
+  printf("------------------------------\n");
   for (i = 0; i < 9; i++)
     {
       for (j = 0; j < 9; j++)
@@ -46,5 +46,10 @@ void printPuzzle(int ** puzzle);
           {
             printf("|");
         }
+    }
+    printf("\n")
+      if (((i + 1) % 3) == 0)
+    {
+      printf("------------------------------\n");
     }
 }
