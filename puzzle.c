@@ -31,7 +31,20 @@ return puzzle;
   
 } 
 
-printPuzzle(int ** puzzle);
+void printPuzzle(int ** puzzle);
 {
-  
+  int i, j;
+
+  printf("")
+  for (i = 0; i < 9; i++)
+    {
+      for (j = 0; j < 9; j++)
+        {
+          printf("%d", puzzle[i][j]);
+
+          if (((j + 1) % 3) == 0)
+          {
+            printf("|");
+        }
+    }
 }
